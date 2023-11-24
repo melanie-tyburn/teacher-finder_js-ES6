@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #011020;
+  font-family: sans-serif;
+}
+
+#app {
+  background: white;
+  margin: 0 60px;
+  padding: 30px;
+  height: 100%
+}
+
+select {
+  width: 100%;
+  padding: 20px;
+  background-color: #eee;
+  border-color: #bbb;
+  font-size: 25px;
+}
+
+h1 {
+  font-weight: lighter;
+  border-bottom: 1px solid #bbb;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+ul {
+  padding: 0;
+  margin-top:40px;
+}
+
+li {
+  background-color: #0052a9;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.language {
+  display: inline-block;
+    background-color: #1771da;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left:10px;
+}
+/* Ajoute tous les styles dont tu as besoin ici */
+/* 
+  codes couleurs :
+  - bleu des items de listes : #0052a9
+  - bleu des tags : #1771da
+  - gris des select: #eee
+  - gris des bordures: #bbb
+*/
